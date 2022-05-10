@@ -1,0 +1,35 @@
+build/
+target/
+out/
+.idea/
+.settings/
+.gradle/
+classes/
+rebel.xml
+*.iml
+.project
+.classpath
+*.orig
+*.war
+*.ear
+hs_err_pid*
+*.class
+.metadata/
+
+
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+bower_components
+
+# testing
+coverage
+
+# production
+dist/
+
+# misc
+.DS_Store
+.env
+*.log
