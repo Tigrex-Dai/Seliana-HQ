@@ -27,7 +27,7 @@ public class Registration {
     }
 
     // properties for blocks and items
-    public static final BlockBehaviour.Properties ORE_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f);
+    public static final BlockBehaviour.Properties ORE_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops();
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
 
     public static final RegistryObject<Block> XXXXXXX = BLOCKS.register("xxxxxxx", () -> new Block(ORE_PROPERTIES));
