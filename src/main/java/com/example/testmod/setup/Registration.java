@@ -30,7 +30,7 @@ public class Registration {
     public static final BlockBehaviour.Properties ORE_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f);
     public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
 
-    public static final RegistryObject<Block> XXXXXXX = BLOCKS.register("XXXXXXX", () -> new Block(ORE_PROPERTIES));
+    public static final RegistryObject<Block> XXXXXXX = BLOCKS.register("xxxxxxx", () -> new Block(ORE_PROPERTIES));
     public static final RegistryObject<Item> XXXXXXX_ITEM = fromBlock(XXXXXXX);
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block){
