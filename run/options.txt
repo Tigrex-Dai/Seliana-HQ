@@ -19,7 +19,7 @@ toggleCrouch:false
 toggleSprint:false
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
-mouseSensitivity:0.5
+mouseSensitivity:0.0
 fov:0.0
 screenEffectScale:1.0
 fovEffectScale:1.0
@@ -138,7 +138,7 @@ key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.toggleLiquids:key.keyboard.unknown
 key_key.toggleVisible:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:1.0
+soundCategory_music:0.24647887
 soundCategory_record:1.0
 soundCategory_weather:1.0
 soundCategory_block:1.0

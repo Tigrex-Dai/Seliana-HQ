@@ -18,6 +18,10 @@ public class TutItemTags extends ItemTagsProvider {
     protected void addTags() {
         tag(Tags.Items.ORES)
                 .add(Registration.XXXXXXX_ITEM.get());
+        tag(Tags.Items.INGOTS)
+                .add(Registration.XXXXXXX_INGOT.get());
+        tag(Registration.XXXXXXX_ITEMS)
+                .add(Registration.XXXXXXX_ITEM.get());
     }
 
     @Override

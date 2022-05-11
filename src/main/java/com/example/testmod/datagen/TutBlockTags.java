@@ -16,11 +16,14 @@ public class TutBlockTags extends BlockTagsProvider {
 
     @Override
     protected void addTags() {
+
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(Registration.XXXXXXX.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(Registration.XXXXXXX.get());
         tag(Tags.Blocks.ORES)
+                .add(Registration.XXXXXXX.get());
+        tag(Registration.XXXXXXX_ORES)
                 .add(Registration.XXXXXXX.get());
     }
 

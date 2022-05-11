@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:raw_xxxxxxx_chunk"
+  },
+  "result": "testmod:xxxxxxx_ingot",
+  "experience": 0.0,
+  "cookingtime": 100
+}
