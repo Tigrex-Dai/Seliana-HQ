@@ -18,14 +18,14 @@ public class TutRecipes extends RecipeProvider {
     @Override
     protected void buildCraftingRecipes(Consumer<FinishedRecipe> consumer) {
 
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.XXXXXXX_ITEMS),
-                        Registration.XXXXXXX_INGOT.get(), 1.0f, 100)
-                .unlockedBy("has_ore", has(Registration.XXXXXXX_ITEMS))
-                .save(consumer, "xxxxxxx_ingot1");
-        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.RAW_XXXXXXX_CHUNK.get()),
-                        Registration.XXXXXXX_INGOT.get(), 0.0f, 100)
-                .unlockedBy("has_chunk", has(Registration.RAW_XXXXXXX_CHUNK.get()))
-                .save(consumer, "xxxxxxx_ingot2");
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.TigCrystal_ITEMS),
+                        Registration.TigCry_CRYSTAL.get(), 1.0f, 100)
+                .unlockedBy("has_ore", has(Registration.TigCrystal_ITEMS))
+                .save(consumer, "fulmen_crystal1");
+        SimpleCookingRecipeBuilder.smelting(Ingredient.of(Registration.TigCry_SHARD.get()),
+                        Registration.TigCry_CRYSTAL.get(), 0.0f, 100)
+                .unlockedBy("has_chunk", has(Registration.TigCry_SHARD.get()))
+                .save(consumer, "fulmen_crystal2");
     }
 
 }

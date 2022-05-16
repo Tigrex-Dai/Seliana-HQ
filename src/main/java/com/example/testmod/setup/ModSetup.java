@@ -9,7 +9,7 @@ public class ModSetup {
 
     public static final String TAB_NAME = "testmod";
 
-    public static final CreativeModeTab ITEM_GROUP = new CreativeModeTab(TAB_NAME) {
+    public static final CreativeModeTab TESTMOD_ITEMGROUP = new CreativeModeTab(TAB_NAME) {
         @Override
         public ItemStack makeIcon() { return new ItemStack(Items.NETHERITE_INGOT); }
     };

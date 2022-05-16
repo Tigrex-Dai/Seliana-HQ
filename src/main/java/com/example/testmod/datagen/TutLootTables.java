@@ -11,7 +11,7 @@ public class TutLootTables extends BaseLootTableProvider{
     @Override
     protected void addTables() {
 
-        lootTables.put(Registration.XXXXXXX.get(), createSilkTouchTable("xxxxxxx", Registration.XXXXXXX.get(), Registration.RAW_XXXXXXX_CHUNK.get(), 1, 3));
+        lootTables.put(Registration.TigCry_BLOCK.get(), createSilkTouchTable("fulmen_ore", Registration.TigCry_BLOCK.get(), Registration.TigCry_SHARD.get(), 1, 3));
     }
 
 }

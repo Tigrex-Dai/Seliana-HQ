@@ -32,17 +32,17 @@ public class Registration {
     }
 
     // properties for blocks and items
-    public static final BlockBehaviour.Properties ORE_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops();
-    public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.ITEM_GROUP);
+    public static final BlockBehaviour.Properties OVERWORLD_ORE_PROPERTIES = BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops();
+    public static final Item.Properties ITEM_PROPERTIES = new Item.Properties().tab(ModSetup.TESTMOD_ITEMGROUP);
 
-    public static final RegistryObject<Block> XXXXXXX = BLOCKS.register("xxxxxxx", () -> new Block(ORE_PROPERTIES));
-    public static final RegistryObject<Item> XXXXXXX_ITEM = fromBlock(XXXXXXX);
+    public static final RegistryObject<Block> TigCry_BLOCK = BLOCKS.register("fulmen_ore", () -> new Block(OVERWORLD_ORE_PROPERTIES));
+    public static final RegistryObject<Item> TigCry_BLOCK_ITEM = fromBlock(TigCry_BLOCK);
 
-    public static final RegistryObject<Item> RAW_XXXXXXX_CHUNK = ITEMS.register("raw_xxxxxxx_chunk", () -> new Item(ITEM_PROPERTIES));
-    public static final RegistryObject<Item> XXXXXXX_INGOT = ITEMS.register("xxxxxxx_ingot", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> TigCry_SHARD = ITEMS.register("fulmen_shard", () -> new Item(ITEM_PROPERTIES));
+    public static final RegistryObject<Item> TigCry_CRYSTAL = ITEMS.register("fulmen_crystal", () -> new Item(ITEM_PROPERTIES));
 
-    public static final Tags.IOptionalNamedTag<Block> XXXXXXX_ORES = BlockTags.createOptional(new ResourceLocation(TestMod.MODID, "xxxxxxx_ore"));
-    public static final Tags.IOptionalNamedTag<Item> XXXXXXX_ITEMS = ItemTags.createOptional(new ResourceLocation(TestMod.MODID, "xxxxxxx_ore"));
+    public static final Tags.IOptionalNamedTag<Block> TigCrystal = BlockTags.createOptional(new ResourceLocation(TestMod.MODID, "fulmen_ore"));
+    public static final Tags.IOptionalNamedTag<Item> TigCrystal_ITEMS = ItemTags.createOptional(new ResourceLocation(TestMod.MODID, "fulmen_ore"));
 
     public static <B extends Block> RegistryObject<Item> fromBlock(RegistryObject<B> block){
         return ITEMS.register(block.getId().getPath(), () -> new BlockItem(block.get(), ITEM_PROPERTIES));

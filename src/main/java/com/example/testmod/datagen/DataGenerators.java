@@ -23,7 +23,7 @@ public class DataGenerators {
         if (event.includeClient()){
             generator.addProvider(new TutBlockStates(generator, event.getExistingFileHelper()));
             generator.addProvider(new TutItemModels(generator, event.getExistingFileHelper()));
-            generator.addProvider(new TutLanguageProvider(generator, "zh-cn"));
+            generator.addProvider(new TutLanguageProvider(generator, "zh_cn"));
         }
     }
 }

@@ -17,11 +17,11 @@ public class TutItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         tag(Tags.Items.ORES)
-                .add(Registration.XXXXXXX_ITEM.get());
+                .add(Registration.TigCry_BLOCK_ITEM.get());
         tag(Tags.Items.INGOTS)
-                .add(Registration.XXXXXXX_INGOT.get());
-        tag(Registration.XXXXXXX_ITEMS)
-                .add(Registration.XXXXXXX_ITEM.get());
+                .add(Registration.TigCry_CRYSTAL.get());
+        tag(Registration.TigCrystal_ITEMS)
+                .add(Registration.TigCry_BLOCK_ITEM.get());
     }
 
     @Override

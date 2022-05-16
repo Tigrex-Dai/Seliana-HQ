@@ -12,7 +12,7 @@ public class TutBlockStates extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels(){
-        simpleBlock(Registration.XXXXXXX.get());
+        simpleBlock(Registration.TigCry_BLOCK.get());
     }
 
 }

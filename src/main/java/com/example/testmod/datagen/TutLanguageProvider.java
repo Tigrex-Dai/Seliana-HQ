@@ -16,9 +16,9 @@ public class TutLanguageProvider extends LanguageProvider {
     @Override
     protected void addTranslations() {
         add("itemGroup." + TAB_NAME, "TestItemGroup");
-        add(Registration.XXXXXXX.get(), "xxxxxxx ore");
-        add(Registration.RAW_XXXXXXX_CHUNK.get(), "Xxxxxxx Raw Chunk");
-        add(Registration.XXXXXXX_INGOT.get(), "Xxxxxxx Ingot");
+        add(Registration.TigCry_BLOCK.get(), "轰鸣矿晶");
+        add(Registration.TigCry_SHARD.get(), "轰鸣碎晶");
+        add(Registration.TigCry_CRYSTAL.get(), "轰鸣晶石");
     }
 
 }
