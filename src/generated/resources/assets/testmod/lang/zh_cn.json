@@ -1,0 +1,23 @@
+{
+  "block.testmod.deepslate_fulmen_ore": "\u6DF1\u5C42\u8F70\u9E23\u77FF\u6676",
+  "block.testmod.deepslate_thunde_ore": "\u6DF1\u5C42\u95EA\u96F7\u77FF\u6676",
+  "block.testmod.deepslate_tricky_ore": "\u6DF1\u5C42\u72E1\u6BD2\u77FF\u6676",
+  "block.testmod.deepslate_turbul_ore": "\u6DF1\u5C42\u6E4D\u6D41\u77FF\u6676",
+  "block.testmod.deepslate_zephyr_ore": "\u6DF1\u5C42\u66B4\u98CE\u77FF\u6676",
+  "block.testmod.fulmen_ore": "\u8F70\u9E23\u77FF\u6676",
+  "block.testmod.thunde_ore": "\u95EA\u96F7\u77FF\u6676",
+  "block.testmod.tricky_ore": "\u72E1\u6BD2\u77FF\u6676",
+  "block.testmod.turbul_ore": "\u6E4D\u6D41\u77FF\u6676",
+  "block.testmod.zephyr_ore": "\u66B4\u98CE\u77FF\u6676",
+  "item.testmod.fulmen_crystal": "\u8F70\u9E23\u6676\u77F3",
+  "item.testmod.fulmen_shard": "\u8F70\u9E23\u788E\u6676",
+  "item.testmod.thunde_crystal": "\u95EA\u96F7\u6676\u77F3",
+  "item.testmod.thunde_shard": "\u95EA\u96F7\u788E\u6676",
+  "item.testmod.tricky_crystal": "\u72E1\u6BD2\u6676\u77F3",
+  "item.testmod.tricky_shard": "\u72E1\u6BD2\u788E\u6676",
+  "item.testmod.turbul_crystal": "\u6E4D\u6D41\u6676\u77F3",
+  "item.testmod.turbul_shard": "\u6E4D\u6D41\u788E\u6676",
+  "item.testmod.zephyr_crystal": "\u66B4\u98CE\u6676\u77F3",
+  "item.testmod.zephyr_shard": "\u66B4\u98CE\u788E\u6676",
+  "itemGroup.testmod": "TestItemGroup"
+}

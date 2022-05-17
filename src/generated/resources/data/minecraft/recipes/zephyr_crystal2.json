@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "testmod:zephyr_shard"
+  },
+  "result": "testmod:zephyr_crystal",
+  "experience": 0.0,
+  "cookingtime": 100
+}

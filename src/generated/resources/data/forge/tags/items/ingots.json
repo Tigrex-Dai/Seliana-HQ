@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "testmod:fulmen_crystal"
+    "testmod:fulmen_crystal",
+    "testmod:turbul_crystal",
+    "testmod:thunde_crystal",
+    "testmod:zephyr_crystal",
+    "testmod:tricky_crystal"
   ]
 }

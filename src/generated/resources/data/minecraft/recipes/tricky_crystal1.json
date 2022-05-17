@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "testmod:tricky_ore"
+  },
+  "result": "testmod:tricky_crystal",
+  "experience": 1.0,
+  "cookingtime": 100
+}

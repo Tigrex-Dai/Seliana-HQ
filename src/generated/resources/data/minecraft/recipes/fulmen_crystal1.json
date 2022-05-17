@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "testmod:fulmen_ore"
+  },
+  "result": "testmod:fulmen_crystal",
+  "experience": 1.0,
+  "cookingtime": 100
+}

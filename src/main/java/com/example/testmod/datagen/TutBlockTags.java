@@ -18,13 +18,53 @@ public class TutBlockTags extends BlockTagsProvider {
     protected void addTags() {
 
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(Registration.TigCry_BLOCK.get());
+                .add(Registration.TigCry_BLOCK.get())
+                .add(Registration.TigCry_BLOCK_DEEP.get())
+                .add(Registration.MizCry_BLOCK.get())
+                .add(Registration.MizCry_BLOCK_DEEP.get())
+                .add(Registration.ZinCry_BLOCK.get())
+                .add(Registration.ZinCry_BLOCK_DEEP.get())
+                .add(Registration.KusCry_BLOCK.get())
+                .add(Registration.KusCry_BLOCK_DEEP.get())
+                .add(Registration.PukCry_BLOCK.get())
+                .add(Registration.PukCry_BLOCK_DEEP.get());
         tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(Registration.TigCry_BLOCK.get());
+                .add(Registration.TigCry_BLOCK.get())
+                .add(Registration.TigCry_BLOCK_DEEP.get())
+                .add(Registration.MizCry_BLOCK.get())
+                .add(Registration.MizCry_BLOCK_DEEP.get())
+                .add(Registration.ZinCry_BLOCK.get())
+                .add(Registration.ZinCry_BLOCK_DEEP.get())
+                .add(Registration.KusCry_BLOCK.get())
+                .add(Registration.KusCry_BLOCK_DEEP.get())
+                .add(Registration.PukCry_BLOCK.get())
+                .add(Registration.PukCry_BLOCK_DEEP.get());
         tag(Tags.Blocks.ORES)
-                .add(Registration.TigCry_BLOCK.get());
+                .add(Registration.TigCry_BLOCK.get())
+                .add(Registration.TigCry_BLOCK_DEEP.get())
+                .add(Registration.MizCry_BLOCK.get())
+                .add(Registration.MizCry_BLOCK_DEEP.get())
+                .add(Registration.ZinCry_BLOCK.get())
+                .add(Registration.ZinCry_BLOCK_DEEP.get())
+                .add(Registration.KusCry_BLOCK.get())
+                .add(Registration.KusCry_BLOCK_DEEP.get())
+                .add(Registration.PukCry_BLOCK.get())
+                .add(Registration.PukCry_BLOCK_DEEP.get());
         tag(Registration.TigCrystal)
-                .add(Registration.TigCry_BLOCK.get());
+                .add(Registration.TigCry_BLOCK.get())
+                .add(Registration.TigCry_BLOCK_DEEP.get());
+        tag(Registration.MizCrystal)
+                .add(Registration.MizCry_BLOCK.get())
+                .add(Registration.MizCry_BLOCK_DEEP.get());
+        tag(Registration.ZinCrystal)
+                .add(Registration.ZinCry_BLOCK.get())
+                .add(Registration.ZinCry_BLOCK_DEEP.get());
+        tag(Registration.KusCrystal)
+                .add(Registration.KusCry_BLOCK.get())
+                .add(Registration.KusCry_BLOCK_DEEP.get());
+        tag(Registration.PukCrystal)
+                .add(Registration.PukCry_BLOCK.get())
+                .add(Registration.PukCry_BLOCK_DEEP.get());
     }
 
     @Override

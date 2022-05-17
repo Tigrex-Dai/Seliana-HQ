@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "testmod:turbul_ore"
+  },
+  "result": "testmod:turbul_crystal",
+  "experience": 1.0,
+  "cookingtime": 100
+}

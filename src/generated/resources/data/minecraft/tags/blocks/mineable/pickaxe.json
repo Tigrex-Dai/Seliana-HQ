@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
-    "testmod:fulmen_ore"
+    "testmod:fulmen_ore",
+    "testmod:deepslate_fulmen_ore",
+    "testmod:turbul_ore",
+    "testmod:deepslate_turbul_ore",
+    "testmod:thunde_ore",
+    "testmod:deepslate_thunde_ore",
+    "testmod:zephyr_ore",
+    "testmod:deepslate_zephyr_ore",
+    "testmod:tricky_ore",
+    "testmod:deepslate_tricky_ore"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "tag": "testmod:thunde_ore"
+  },
+  "result": "testmod:thunde_crystal",
+  "experience": 1.0,
+  "cookingtime": 100
+}

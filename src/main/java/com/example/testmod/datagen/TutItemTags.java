@@ -17,11 +17,37 @@ public class TutItemTags extends ItemTagsProvider {
     @Override
     protected void addTags() {
         tag(Tags.Items.ORES)
-                .add(Registration.TigCry_BLOCK_ITEM.get());
+                .add(Registration.TigCry_BLOCK_ITEM.get())
+                .add(Registration.TigCry_BLOCK_DEEP_ITEM.get())
+                .add(Registration.MizCry_BLOCK_ITEM.get())
+                .add(Registration.MizCry_BLOCK_DEEP_ITEM.get())
+                .add(Registration.ZinCry_BLOCK_ITEM.get())
+                .add(Registration.ZinCry_BLOCK_DEEP_ITEM.get())
+                .add(Registration.KusCry_BLOCK_ITEM.get())
+                .add(Registration.KusCry_BLOCK_DEEP_ITEM.get())
+                .add(Registration.PukCry_BLOCK_ITEM.get())
+                .add(Registration.PukCry_BLOCK_DEEP_ITEM.get());
         tag(Tags.Items.INGOTS)
-                .add(Registration.TigCry_CRYSTAL.get());
+                .add(Registration.TigCry_CRYSTAL.get())
+                .add(Registration.MizCry_CRYSTAL.get())
+                .add(Registration.ZinCry_CRYSTAL.get())
+                .add(Registration.KusCry_CRYSTAL.get())
+                .add(Registration.PukCry_CRYSTAL.get());
         tag(Registration.TigCrystal_ITEMS)
-                .add(Registration.TigCry_BLOCK_ITEM.get());
+                .add(Registration.TigCry_BLOCK_ITEM.get())
+                .add(Registration.TigCry_BLOCK_DEEP_ITEM.get());
+        tag(Registration.MizCrystal_ITEMS)
+                .add(Registration.MizCry_BLOCK_ITEM.get())
+                .add(Registration.MizCry_BLOCK_DEEP_ITEM.get());
+        tag(Registration.ZinCrystal_ITEMS)
+                .add(Registration.ZinCry_BLOCK_ITEM.get())
+                .add(Registration.ZinCry_BLOCK_DEEP_ITEM.get());
+        tag(Registration.KusCrystal_ITEMS)
+                .add(Registration.KusCry_BLOCK_ITEM.get())
+                .add(Registration.KusCry_BLOCK_DEEP_ITEM.get());
+        tag(Registration.PukCrystal_ITEMS)
+                .add(Registration.PukCry_BLOCK_ITEM.get())
+                .add(Registration.PukCry_BLOCK_DEEP_ITEM.get());
     }
 
     @Override
